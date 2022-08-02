@@ -1,4 +1,42 @@
-.user-input,.area-input, .hyp-input, .quiz-input{
+input[type="number"],label{
     display:block;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    padding:5px;
+    width: 35%;
+    text-align: center;
 }
 
+
+input[type="radio"] {
+display:inline;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+nav {
+    background-color: blueviolet;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    color: aliceblue;
+    padding: 4px;
+    text-decoration: none;
+}
+.container, button {
+   text-align: center;
+   /* margin:0 auto; */
+   margin-top: 5px;
+}

@@ -9,5 +9,5 @@ function areaofTriangle()
 {
     let area1= (Number(areaInput[0].value) * Number(areaInput[1].value))
     area1= 0.5* area1;
-    console.log(area1)
+    outputArea.textContent= `Area of the triangle is ${area1}`
 }
